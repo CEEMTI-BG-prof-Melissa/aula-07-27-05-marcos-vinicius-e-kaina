@@ -1,0 +1,15 @@
+div p{
+  color: vermelha;
+}
+
+ div h2 > p{
+  background-color:cinza claro;
+}
+
+h2+p{
+  font-weight: Black;
+}
+
+h2~p{
+  font-style: Italic;
+}
