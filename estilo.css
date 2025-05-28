@@ -1,15 +1,23 @@
-div p{
-  color: vermelha;
+input [type= "required"] {
+    border: 2px solid red;
 }
 
- div h2 > p{
-  background-color:cinza claro;
+input [type= "password"] {
+    background-color: lightgray;
 }
 
-h2+p{
-  font-weight: Black;
+a [href ^= "https"] {
+    color: green;
 }
 
-h2~p{
-  font-style: Italic;
+a [href $= ".pdf"] {
+    color: pink;
+}
+
+a [href *= "exemplo"] {
+    font-weight: bold;
+}
+
+div [class ^= "ativo"] {
+    background-color: lightblue;
 }
